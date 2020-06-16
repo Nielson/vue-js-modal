@@ -744,15 +744,7 @@ export default {
 }
 
 .vm--overlay {
-  position: fixed;
-  box-sizing: border-box;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.2);
-  /* z-index: 999; */
-  opacity: 1;
+
 }
 
 .vm--container.scrollable {
@@ -763,13 +755,6 @@ export default {
 }
 
 .vm--modal {
-  position: relative;
-  overflow: hidden;
-  box-sizing: border-box;
-
-  background-color: white;
-  border-radius: 3px;
-  box-shadow: 0 20px 60px -2px rgba(27, 33, 58, 0.4);
 }
 
 .vm--container.scrollable .vm--modal {
