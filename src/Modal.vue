@@ -12,7 +12,7 @@
     >
       <div
         v-if="visibility.overlay"
-        class="vm--overlay"
+        class=""
         :data-modal="name"
         :aria-expanded="visibility.overlay.toString()"
         @click.self.stop="onOverlayClick"
@@ -367,7 +367,7 @@ export default {
      * Returns class list for modal itself
      */
     modalClass() {
-      return ['vm--modal', this.classes]
+      return [this.classes]
     },
 
     stylesProp() {
